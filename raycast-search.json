@@ -1,0 +1,15 @@
+{
+  "name": "Raycast Search",
+  "identifier": "raycastsearch.tomsenasi",
+  "icon": "icon.svg",
+  "requiredAppVersion": "1.5.3.0",
+  "actions": [
+    {
+      "title": "Search in Raycast",
+      "icon": "icon.svg",
+      "powershellFile": "send_to_raycast.ps1",
+      "longRunning": false,
+      "after": "SHOW_SUCCESS"
+    }
+  ]
+}
